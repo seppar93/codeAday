@@ -1,8 +1,13 @@
-// const card = document.querySelector('.card')
+const panels = document.querySelectorAll('.panel') // node list i.e array like
 
-// function selectedCard() {
-//     card.classList.add('active')
-
-// }
-
-// card.addEventListener('click', selectedCard())
+function removeActiveClasses() {
+    panels.forEach( panel => {
+        panel.classList.remove('active')
+    })
+}
+panels.forEach(panel => {
+    panel.addEventListener('click', () => {
+        removeActiveClasses()
+        panel.classList.add('active')
+    })
+})
