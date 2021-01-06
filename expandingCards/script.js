@@ -1,8 +1,8 @@
-const card = document.querySelector('.card')
+// const card = document.querySelector('.card')
 
-function selectedCard() {
-    card.classList.add('active')
+// function selectedCard() {
+//     card.classList.add('active')
 
-}
+// }
 
-card.addEventListener('click', selectedCard())
+// card.addEventListener('click', selectedCard())
