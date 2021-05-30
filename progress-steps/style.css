@@ -1,1 +1,7 @@
-html {background-color: aqua;}
+.container {
+text-align: center;
+/* position: absolute; */
+
+/* width: 50%; */
+height: 300px;
+}
