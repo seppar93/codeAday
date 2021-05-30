@@ -70,13 +70,14 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid var(--line-border-fill);
+    border: 3px solid var(--line-border-empty);
     transition: .4s ease;
 }
 
 .circle.active {
     border-color: var(--line-border-fill);
 }
+
 .btn {
     background-color: var(--line-border-fill);
     color: #fff; 
