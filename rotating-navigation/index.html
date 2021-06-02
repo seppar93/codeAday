@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Rotating Navigation</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -14,28 +14,50 @@
 
 <body>
     <div class="container">
-
-        <h1>ARTICLE NAME</h1>
-        <h6>Author</h6>
-        <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-            including versions of Lorem Ipsum.
-        </p>
-
-        <h4>Title</h4>
-        <img src="" alt="">
-
-        <div class="nav" id="on">
-            <div class="nav-container">
-                <button class="Home">Home</button>
-                <button class='About'> About</button>
-                <button class="Contact"> Contact</button>
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
         </div>
+
+        <div class="content">
+            <h1>amazing Article</h1>
+            <small>Florin Pop</small>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam numquam quidem laboriosam officiis laborum
+                odit explicabo illum autem non perferendis, quo itaque natus cum fugit, fugiat mollitia fuga ullam
+                exercitationem dolor qui harum. Modi dolorum impedit in quae, fugiat porro. Quasi eum, nemo aliquid
+                repellendus veniam quia nisi itaque ea. Quia, natus voluptatibus vero porro exercitationem sit
+                distinctio nam amet perspiciatis consectetur accusamus. Ut corporis est omnis officia. Atque,
+                perspiciatis at rerum laudantium optio quam eius eum fugiat repellendus labore id nobis culpa placeat
+                suscipit molestias amet minima sint iusto totam dolore blanditiis rem exercitationem voluptatibus? Est
+                dicta earum fugiat!</p>
+
+            <h3>Something</h3>
+            <img src="https://source.unsplash.com/random" width="500" height="500" alt="poop">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi amet molestiae non quod quibusdam animi
+                incidunt, eum voluptate mollitia sunt nobis molestias sequi rerum voluptatum earum neque dolores facilis
+                repellendus laboriosam nesciunt excepturi tempore? Neque quidem porro perspiciatis, et consequatur
+                placeat exercitationem voluptatibus inventore dolore illo dolorem! Perspiciatis non adipisci aspernatur
+                magni iste nulla eos nam, dolores, quos recusandae quibusdam et tenetur quo inventore nesciunt ad earum
+                at voluptate voluptatibus quas error quasi? Dignissimos, quidem.</p>
+        </div>
     </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>Contact</li>
+
+
+        </ul>
+    </nav>
+
 
 
 
