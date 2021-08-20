@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="search-contianer">
             <div class="header-container">
 
@@ -45,6 +45,23 @@
 
         </div>
 
+    </div> -->
+    <div class="container">
+        <h1>Meal Finder</h1>
+        <div class="flex">
+            <form id='submit' class="flex">
+                <input type="text" placeholder="Search for meals" id="search">
+                <button class="search-btn" type='submit'>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class="random-btn" id="random">
+                <i class="fas fa-random"></i>
+            </button>
+        </div>
+        <div id="results-heading"></div>
+        <div class="meals" id="meals"></div>
+        <div id="single-meal"></div>
     </div>
 
 
